@@ -11,7 +11,7 @@ $('#back').click(function() {
     else {
         n = 0;
     }
-    $('#img').attr("src", `/assets/${arry[n]}`);
+    $('#img').attr("src", `./assets/${arry[n]}`);
 })
 $('#next').click(function () {
     
@@ -24,7 +24,7 @@ $('#next').click(function () {
     else {
         n = 0;
     }
-    $('#img').attr("src", `/assets/${arry[n]}`);
+    $('#img').attr("src", `./assets/${arry[n]}`);
 })
 var i = 0;
 $('.cart').click(function () {
